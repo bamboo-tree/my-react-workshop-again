@@ -9,17 +9,17 @@ function App() {
 			<Button
 				label="Click me"
 				onClick={() => alert("i'm red")}
-				className="text-white bg-red-500 border-2 px-6 py-3 rounded hover:bg-red-600"
+				className="bg-red-500 hover:bg-red-600"
 			/>
 			<Button
 				label="Click me"
 				onClick={() => alert("i'm blue")}
-				className="text-white bg-blue-500 border-2 px-6 py-3 rounded hover:bg-blue-600"
+				className="bg-blue-500 hover:bg-blue-600"
 			/>
 			<Button
 				label="Click me"
 				onClick={() => alert("i'm green")}
-				className="text-white bg-green-500 border-2 px-6 py-3 rounded hover:bg-green-600"
+				className="bg-green-500 hover:bg-green-600"
 			/>
 		</>
 	);

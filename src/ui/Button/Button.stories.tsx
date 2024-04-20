@@ -19,24 +19,21 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
 	args: {
 		label: "Red",
-		className:
-			"text-black border-2 px-6 py-3 rounded bg-red-400 hover:bg-red-500",
+		className: "bg-red-400 hover:bg-red-500",
 		disabled: false,
 	},
 };
 export const Green: Story = {
 	args: {
 		label: "Green",
-		className:
-			"text-black border-2 px-6 py-3 rounded bg-green-400 hover:bg-green-500",
+		className: "bg-green-400 hover:bg-green-500",
 		disabled: false,
 	},
 };
 export const Blue: Story = {
 	args: {
 		label: "Blue",
-		className:
-			"text-black border-2 px-6 py-3 rounded bg-blue-400 hover:bg-blue-500",
+		className: "bg-blue-400 hover:bg-blue-500",
 		disabled: false,
 	},
 };
