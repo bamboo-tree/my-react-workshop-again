@@ -1,6 +1,5 @@
 import "./App.css";
-import { Text } from "./ui";
-import { Button } from "./ui";
+import { Text, Button, Paragraph } from "./ui";
 
 function App() {
 	return (
@@ -21,6 +20,7 @@ function App() {
 				onClick={() => alert("i'm green")}
 				className="bg-green-500 hover:bg-green-600"
 			/>
+			<Paragraph>Text</Paragraph>
 		</>
 	);
 }
